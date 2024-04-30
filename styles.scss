@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.panel {
+    width: 325px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.panel img {
+    width: 100%;
+    height: auto;
+}
+
+.panel {
+    padding: 16px;
+}
+
+.panel_texto h3 {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 8px;
+}
+
+.panel_texto p {
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+
+.columnas {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+
+}
+
+.content_columnas { 
+    background: #132b7a;
+    height: 200px;
+    width: 250px;
+}
+
+.textos {
+    color: #ffffff;
+}
